@@ -18,7 +18,7 @@ For demo purposes the program is deployed on devnet.
 
 | Network | Program ID                                    |
 | ------- | --------------------------------------------- |
-| Devnet  | `vaLtx8Su1t5P1CZG5GFEMc94sN4K7A4AUUiciadtvUi` |
+| Devnet  | `14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi` |
 
 > Not deployed to mainnet-beta.
 

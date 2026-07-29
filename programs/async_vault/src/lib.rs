@@ -9,7 +9,7 @@ pub mod utils;
 use extensions::*;
 use instructions::*;
 
-declare_id!("vaLtx8Su1t5P1CZG5GFEMc94sN4K7A4AUUiciadtvUi");
+declare_id!("14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi");
 
 #[program]
 pub mod async_vault {

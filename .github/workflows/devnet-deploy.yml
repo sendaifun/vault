@@ -14,7 +14,7 @@ jobs:
     uses: solana-foundation/github-workflows/.github/workflows/reusable-build.yaml@1a62a52041b4a9beed9e96843062be1859447f1d
     with:
       program: 'async_vault'
-      program-id: 'vaLtx8Su1t5P1CZG5GFEMc94sN4K7A4AUUiciadtvUi'
+      program-id: '14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi'
       network: 'devnet'
       deploy: true
       upload_idl: true

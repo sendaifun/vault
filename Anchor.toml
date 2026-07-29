@@ -1,20 +1,17 @@
 [toolchain]
-package_manager = "pnpm"
 anchor_version = "1.0.2"
 solana_version = "3.1.14"
+package_manager = "pnpm"
 
 [features]
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-async_vault = "vaLtx8Su1t5P1CZG5GFEMc94sN4K7A4AUUiciadtvUi"
-
 [programs.devnet]
-async_vault = "vaLtx8Su1t5P1CZG5GFEMc94sN4K7A4AUUiciadtvUi"
+async_vault = "14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi"
 
-[registry]
-url = "https://api.apr.dev"
+[programs.localnet]
+async_vault = "14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi"
 
 [provider]
 cluster = "localnet"
@@ -22,3 +19,5 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "cargo test"
+
+[hooks]
