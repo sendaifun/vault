@@ -16,9 +16,9 @@ See [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md) for the catalog of features reque
 
 For demo purposes the program is deployed on devnet.
 
-| Network | Program ID                                    |
-| ------- | --------------------------------------------- |
-| Devnet  | `14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi` |
+| Network | Program ID                                      | Release record |
+| ------- | ----------------------------------------------- | -------------- |
+| Devnet  | `14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi` | [`v0.1.0-devnet.1`](deployments/devnet/v0.1.0-devnet.1.md) |
 
 > Not deployed to mainnet-beta.
 
