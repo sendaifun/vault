@@ -1,0 +1,23 @@
+{
+    "assetMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+    "assetTokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "authority": "3aAakTYMWZjMzcji2sE6T8NxqWSJ74KBbtMUdMRaNCoc",
+    "cluster": "devnet",
+    "createdAt": "2026-08-02T08:58:35.603Z",
+    "feeRecipient": "3aAakTYMWZjMzcji2sE6T8NxqWSJ74KBbtMUdMRaNCoc",
+    "initialized": true,
+    "pendingVault": "9zc7SqBkcwKXNGjBnpYCMDv1CuDF7AaPssZ3EC3ypeP4",
+    "programAddress": "14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi",
+    "programSourceCommit": "de9c34aa41861f86c327a81ad96c70cbc6300b8c",
+    "redemptionQueue": true,
+    "reserve": "BQndgjX72G6fygjbCu2NA37gkM21FW2vyHmhfkko9J7F",
+    "shareDecimals": 6,
+    "shareMint": "ENwyz3W4KJdQymQDSpNmfgnmZyBh1UTrRd9QdBHifxus",
+    "shareMintKeypairPath": "keypairs/devnet-smoke-share-mint.json",
+    "shareMintNonTransferable": true,
+    "shareTokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "slot": 480644909,
+    "transaction": "2xtJZJgVnQYSKG3qjpkzL6JaUPvw6qkqoJfU8sQnBcvVnmX7ahfKiA5tGUy5kJt5xnwnhD3nVZES6ijqmuLBYTA2",
+    "transactionExplorer": "https://explorer.solana.com/tx/2xtJZJgVnQYSKG3qjpkzL6JaUPvw6qkqoJfU8sQnBcvVnmX7ahfKiA5tGUy5kJt5xnwnhD3nVZES6ijqmuLBYTA2?cluster=devnet",
+    "vault": "32MeEkGzRv2Kurh9Svb6DbZDz7D7xH14M9MCe8PuzSqb"
+}

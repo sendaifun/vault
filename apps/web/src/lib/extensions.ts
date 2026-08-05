@@ -1,4 +1,4 @@
-import { getVaultDecoder, type Vault } from '@solana/vault';
+import { getVaultDecoder, type Vault } from '@sendaifun/async-vault-client';
 
 const TLV_HEADER_SIZE = 4;
 

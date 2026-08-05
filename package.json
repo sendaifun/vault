@@ -6,6 +6,8 @@
     "license": "MIT",
     "scripts": {
         "build": "cd clients/typescript && tsc",
+        "devnet:create-vault": "pnpm --dir scripts/devnet-smoke start",
+        "devnet:test-lifecycle": "pnpm --dir scripts/devnet-smoke lifecycle",
         "generate-clients": "tsx ./scripts/generate-clients.ts",
         "generate-ts-client": "tsx ./scripts/generate-ts-client.ts",
         "generate-idl": "anchor build --ignore-keys",
@@ -13,7 +15,8 @@
         "format:check": "prettier --check .",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "typecheck": "cd clients/typescript && tsc --noEmit"
+        "typecheck": "cd clients/typescript && tsc --noEmit",
+        "typecheck:scripts": "pnpm --dir scripts/devnet-smoke typecheck"
     },
     "devDependencies": {
         "@codama/nodes-from-anchor": "^1.5.1",

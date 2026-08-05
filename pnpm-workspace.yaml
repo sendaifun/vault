@@ -1,6 +1,7 @@
 packages:
   - clients/typescript
   - apps/web
+  - scripts/devnet-smoke
 
 allowBuilds:
   esbuild: true

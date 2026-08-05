@@ -1,38 +1,37 @@
 {
-    "name": "@solana/vault",
-    "version": "0.1.0",
-    "description": "TypeScript client for the Async Vault program",
+    "name": "@sendaifun/async-vault-client",
+    "version": "0.1.0-devnet.1",
+    "description": "Generated TypeScript client for the SendAI Async Vault program",
     "license": "MIT",
+    "sideEffects": false,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/solana-foundation/vault.git",
+        "url": "git+https://github.com/sendaifun/vault.git",
         "directory": "clients/typescript"
     },
     "type": "module",
-    "main": "./src/index.ts",
-    "types": "./src/index.ts",
+    "source": "./src/index.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-            "types": "./src/index.ts",
-            "import": "./src/index.ts",
-            "default": "./src/index.ts"
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "default": "./dist/index.js"
         }
     },
     "publishConfig": {
-        "main": "./dist/index.js",
-        "types": "./dist/index.d.ts",
-        "exports": {
-            ".": {
-                "import": "./dist/index.js",
-                "types": "./dist/index.d.ts"
-            }
-        }
+        "access": "public",
+        "tag": "devnet"
     },
     "files": [
         "dist"
     ],
     "scripts": {
-        "build": "tsc",
+        "build": "pnpm clean && tsc --emitDeclarationOnly && esbuild src/index.ts --bundle --format=esm --platform=neutral --packages=external --outfile=dist/index.js",
+        "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
+        "generate": "pnpm --dir ../.. generate-ts-client",
+        "prepack": "pnpm generate && pnpm typecheck && pnpm build",
         "typecheck": "tsc --noEmit"
     },
     "keywords": [
@@ -41,9 +40,13 @@
         "vault",
         "async-vault"
     ],
-    "homepage": "https://github.com/solana-foundation/vault#readme",
+    "homepage": "https://github.com/sendaifun/vault#readme",
     "bugs": {
-        "url": "https://github.com/solana-foundation/vault/issues"
+        "url": "https://github.com/sendaifun/vault/issues"
+    },
+    "devDependencies": {
+        "@solana/kit": "6.9.0",
+        "esbuild": "0.28.1"
     },
     "peerDependencies": {
         "@solana/kit": "^6.9.0"

@@ -19,7 +19,7 @@
         "@solana/connector": "^0.2.4",
         "@solana/design-system": "^1.0.1",
         "@solana/kit": "^6.10.0",
-        "@solana/vault": "workspace:*",
+        "@sendaifun/async-vault-client": "workspace:*",
         "@tanstack/react-query": "^5.101.2",
         "@vercel/analytics": "^2.0.1",
         "bs58": "^6.0.0",

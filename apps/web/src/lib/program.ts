@@ -37,7 +37,7 @@ import {
     getWithdrawAssetsInstruction,
     type FeeTypeArgs,
     type RequestTypeArgs,
-} from '@solana/vault';
+} from '@sendaifun/async-vault-client';
 
 import { PROGRAM_ADDRESS } from './config';
 import { tokenProgramAddress, type TokenProgramKind } from './token';

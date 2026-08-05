@@ -6,7 +6,7 @@ import {
     type Address,
     type Base58EncodedBytes,
 } from '@solana/kit';
-import { getRequestDecoder, REQUEST_DISCRIMINATOR, type Request } from '@solana/vault';
+import { getRequestDecoder, REQUEST_DISCRIMINATOR, type Request } from '@sendaifun/async-vault-client';
 
 import { PROGRAM_ADDRESS } from '@/lib/config';
 import { decodeVaultData, parseExtensions, type ParsedExtension } from '@/lib/extensions';

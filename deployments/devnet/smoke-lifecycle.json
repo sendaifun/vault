@@ -1,0 +1,135 @@
+{
+    "accounts": {
+        "canceledRedemptionRequest": "FNg1ffWZsDWR1uBHuD7W4Hh6tZM68PpTQg2SDaeYK87R",
+        "claimedRedemptionRequest": "7ftYCMTZ8Xf4ir8CmMTycXaGwvofMj7EfqsSAQWNH5ds",
+        "depositRequest": "2ruiTSroR5c13yBX2YDtM7yD2E4fq5kVvLLhnecGGoBz",
+        "pendingVault": "9zc7SqBkcwKXNGjBnpYCMDv1CuDF7AaPssZ3EC3ypeP4",
+        "reserve": "BQndgjX72G6fygjbCu2NA37gkM21FW2vyHmhfkko9J7F",
+        "shareMint": "ENwyz3W4KJdQymQDSpNmfgnmZyBh1UTrRd9QdBHifxus",
+        "userAssetAccount": "8hisgzbETni3sr2iAnVcyTm3kdBDomJWXLqnMeSaEBUe",
+        "userShareAccount": "DTeLZiHWkpaPjPZsXEzNkbY8j5e9N47bHpidNtmD2aUs",
+        "vault": "32MeEkGzRv2Kurh9Svb6DbZDz7D7xH14M9MCe8PuzSqb"
+    },
+    "amounts": {
+        "canceledRedemptionShares": "2000000",
+        "claimedRedemptionAssets": "4000000",
+        "claimedRedemptionShares": "4000000",
+        "depositAssets": "10000000",
+        "nav": "1000000"
+    },
+    "cluster": "devnet",
+    "programAddress": "14rwtLEnG2XCYSaNuA2Tv6xKzt88YcAtuiaxtD2usuzi",
+    "snapshots": {
+        "starting": {
+            "nav": "0",
+            "navVersion": "0",
+            "pendingAssetBalance": "0",
+            "pendingAsyncRequests": 0,
+            "reserveAssetBalance": "0",
+            "shareSupply": "0",
+            "totalAssetBalance": "0",
+            "userAssetBalance": "20000000",
+            "userShareBalance": "0"
+        },
+        "afterDeposit": {
+            "nav": "1000000",
+            "navVersion": "1",
+            "pendingAssetBalance": "0",
+            "pendingAsyncRequests": 0,
+            "reserveAssetBalance": "10000000",
+            "shareSupply": "10000000",
+            "totalAssetBalance": "10000000",
+            "userAssetBalance": "10000000",
+            "userShareBalance": "10000000"
+        },
+        "afterCanceledRedemption": {
+            "nav": "1000000",
+            "navVersion": "1",
+            "pendingAssetBalance": "0",
+            "pendingAsyncRequests": 0,
+            "reserveAssetBalance": "10000000",
+            "shareSupply": "10000000",
+            "totalAssetBalance": "10000000",
+            "userAssetBalance": "10000000",
+            "userShareBalance": "10000000"
+        },
+        "afterRedemption": {
+            "nav": "1000000",
+            "navVersion": "2",
+            "pendingAssetBalance": "0",
+            "pendingAsyncRequests": 0,
+            "reserveAssetBalance": "6000000",
+            "shareSupply": "6000000",
+            "totalAssetBalance": "6000000",
+            "userAssetBalance": "14000000",
+            "userShareBalance": "6000000"
+        }
+    },
+    "startedAt": "2026-08-02T09:15:25.633Z",
+    "status": "completed",
+    "steps": {
+        "setupAtas": {
+            "explorer": "https://explorer.solana.com/tx/5KEeEKbCnxSFDjrFsa2mqKdZFKCfF7ynUNRP8Nuba5CosMTuLjgrDnjgBpz7LgpfXiYaHQEe4VkdTSgTCn1d5ehg?cluster=devnet",
+            "signature": "5KEeEKbCnxSFDjrFsa2mqKdZFKCfF7ynUNRP8Nuba5CosMTuLjgrDnjgBpz7LgpfXiYaHQEe4VkdTSgTCn1d5ehg",
+            "slot": 480647670
+        },
+        "initializeNav": {
+            "explorer": "https://explorer.solana.com/tx/2Hc1LE8tXBTGvKy5czEpFRUTfPc6c3G7FireXjNdoYwM4532cxwggybBY7Ag3BLP7XtaWdeYUqicMusky5qKj2vt?cluster=devnet",
+            "signature": "2Hc1LE8tXBTGvKy5czEpFRUTfPc6c3G7FireXjNdoYwM4532cxwggybBY7Ag3BLP7XtaWdeYUqicMusky5qKj2vt",
+            "slot": 480647705
+        },
+        "createDeposit": {
+            "explorer": "https://explorer.solana.com/tx/4hdSo3tiMrUspfXmCuRdmacbu7RapqCChQaSmizjingqErZC5Pp77Zr3zgfXQMPthXY6Trnveyvf8WYujcj9Mpu3?cluster=devnet",
+            "signature": "4hdSo3tiMrUspfXmCuRdmacbu7RapqCChQaSmizjingqErZC5Pp77Zr3zgfXQMPthXY6Trnveyvf8WYujcj9Mpu3",
+            "slot": 480647739
+        },
+        "approveDeposit": {
+            "explorer": "https://explorer.solana.com/tx/57qz9KgAE1mg4GGfRNDgacZTdRZr1psszHPSTyQiX6TKrpv9Z48npDqoVFGybiga8bNe4wn65pt2Jy6xwYxZM4wW?cluster=devnet",
+            "signature": "57qz9KgAE1mg4GGfRNDgacZTdRZr1psszHPSTyQiX6TKrpv9Z48npDqoVFGybiga8bNe4wn65pt2Jy6xwYxZM4wW",
+            "slot": 480647773
+        },
+        "claimDeposit": {
+            "explorer": "https://explorer.solana.com/tx/2jDmF7GwvZtKkrCyRBePF8r2xqqZzPror9r2L6iR5RWYzAp1exfmHPkrmgEnn6BfP8HvvTAiQ3jJWezrGiHzqxeM?cluster=devnet",
+            "signature": "2jDmF7GwvZtKkrCyRBePF8r2xqqZzPror9r2L6iR5RWYzAp1exfmHPkrmgEnn6BfP8HvvTAiQ3jJWezrGiHzqxeM",
+            "slot": 480647807
+        },
+        "createCanceledRedemption": {
+            "explorer": "https://explorer.solana.com/tx/4gegeaBnNiLpEu6aCDz2Ag7EB1fV5Tr3c3AY1U3PoBPnUWJLsqW7UNvGEHPGDeDqSx2KrcJdHgWSqAYEJJPj7BW4?cluster=devnet",
+            "signature": "4gegeaBnNiLpEu6aCDz2Ag7EB1fV5Tr3c3AY1U3PoBPnUWJLsqW7UNvGEHPGDeDqSx2KrcJdHgWSqAYEJJPj7BW4",
+            "slot": 480647841
+        },
+        "cancelRedemption": {
+            "explorer": "https://explorer.solana.com/tx/pSm6SwGS8VrQ6fUvMWdFGP7YHvTnGoFmfhPWwxrU4KKJN3pv5k2QE6cPJRKkCwfkFfeVPAWeGyy3gkZFKsdvYZk?cluster=devnet",
+            "signature": "pSm6SwGS8VrQ6fUvMWdFGP7YHvTnGoFmfhPWwxrU4KKJN3pv5k2QE6cPJRKkCwfkFfeVPAWeGyy3gkZFKsdvYZk",
+            "slot": 480647875
+        },
+        "skipCanceledRedemption": {
+            "explorer": "https://explorer.solana.com/tx/5uU2MqZuSVydoaTbCan8BYompmoNWU5tvUub1K3JJzoSzESLhWfN5Kjs25b1MqAqBL8mxTuZVq9xnGGJh3nBaUf?cluster=devnet",
+            "signature": "5uU2MqZuSVydoaTbCan8BYompmoNWU5tvUub1K3JJzoSzESLhWfN5Kjs25b1MqAqBL8mxTuZVq9xnGGJh3nBaUf",
+            "slot": 480647909
+        },
+        "createClaimedRedemption": {
+            "explorer": "https://explorer.solana.com/tx/1icpFRiwLWv8XC4TB8UNCVtzKpyvdVavEubdnWiYTu9NVi8gkxzb3ho8U9wRXgJgTNtRGW6V3GseDUQZSMr1c6f?cluster=devnet",
+            "signature": "1icpFRiwLWv8XC4TB8UNCVtzKpyvdVavEubdnWiYTu9NVi8gkxzb3ho8U9wRXgJgTNtRGW6V3GseDUQZSMr1c6f",
+            "slot": 480647944
+        },
+        "priceAndApproveRedemption": {
+            "explorer": "https://explorer.solana.com/tx/2fB5wVWBSBZhQswZm5nP6XtiBimE7NMMB4bPMrTN7YSsPELWBw55apHPY8dXvQRfYfpLDdasmTurB6pceaLwQeZ3?cluster=devnet",
+            "signature": "2fB5wVWBSBZhQswZm5nP6XtiBimE7NMMB4bPMrTN7YSsPELWBw55apHPY8dXvQRfYfpLDdasmTurB6pceaLwQeZ3",
+            "slot": 480647978
+        },
+        "claimRedemption": {
+            "explorer": "https://explorer.solana.com/tx/3Wzne1qxRR9g2ECMQ6rAHA4YDJQvH8uM3bkmBkpFnJ8Bt6GihdRo7RGKNtX2EYcwagp4jvuMaUXuXYTpHTezZhdE?cluster=devnet",
+            "signature": "3Wzne1qxRR9g2ECMQ6rAHA4YDJQvH8uM3bkmBkpFnJ8Bt6GihdRo7RGKNtX2EYcwagp4jvuMaUXuXYTpHTezZhdE",
+            "slot": 480648012
+        }
+    },
+    "version": 1,
+    "duplicateClaim": {
+        "error": "SolanaError: Custom program error: #3012 (instruction #1)",
+        "explorer": "https://explorer.solana.com/tx/2rzAUfWNowDrKz6ad1bm745PA72Ty1CVKdXccPyPkeDUE59ZJLPKSMhWP8Sz7u6GUVw1V4s6rgLR6DPteo2oAhLk?cluster=devnet",
+        "rejected": true,
+        "signature": "2rzAUfWNowDrKz6ad1bm745PA72Ty1CVKdXccPyPkeDUE59ZJLPKSMhWP8Sz7u6GUVw1V4s6rgLR6DPteo2oAhLk"
+    },
+    "completedAt": "2026-08-02T09:17:33.463Z"
+}

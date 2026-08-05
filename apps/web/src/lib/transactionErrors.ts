@@ -21,7 +21,7 @@ import {
     ASYNC_VAULT_ERROR__UNAUTHORIZED_SIGNER,
     ASYNC_VAULT_ERROR__UNINITIALIZED_VAULT,
     ASYNC_VAULT_ERROR__VAULT_ALREADY_INITIALIZED,
-} from '@solana/vault';
+} from '@sendaifun/async-vault-client';
 import {
     isSolanaError,
     SOLANA_ERROR__INSTRUCTION_ERROR__CUSTOM,
